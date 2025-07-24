@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Static E-Commerce Page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">ShopZone</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart">🛒 <span id="cart-count">0</span></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="products">
+      <div class="product-card">
+        <img src="./61zxwkCv6PL._UY1000_.jpg"
+        alt="Product 1">
+        <h3>Sneakers</h3>
+        <p>"Comfortable and stylish running shoes."</p>
+        <h4>₹3999</h4>
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./image.jpg" alt="Product 2">
+        <h3>Head Phone</h3>
+        <p>"Noise-cancelling over-ear headphones."</p>
+        <h4>₹4999</h4>
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="./d74d26c11899--25-Rucksack-Khaki-FibreNyte-Tan-200dpi-2000px-b92129_750x.webp" alt="Product 3">
+        <h3>Backpack</h3>
+        <p>"Durable and lightweight backpack."</p>
+        <h4>₹2999</h4>
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+      </div>
+
+    </section>
+  </main>
+
+  <div id="confirmation" class="hidden">Item added to cart!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
